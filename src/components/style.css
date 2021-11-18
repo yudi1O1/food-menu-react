@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 100px;
+}
+
+.menu {
+  background: #e7e9eb;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.head {
+  font-size: 5rem;
+  text-align: center;
+  width: 100vw;
+  padding-top: 3rem;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize;
+}
+
+.head span {
+  color: #ecc30c;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.head::after {
+  content: "";
+  position: absolute;
+  border: 0.2rem solid #ecc30c;
+  width: 10rem;
+  left: 46%;
+  bottom: -0.9rem;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem;
+}
+
+.filter-btn {
+  padding: 1rem 2rem;
+  margin: 2rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: solid #ecc30c;
+  color: #cea907;
+  font-weight: bold;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.filter-btn:hover {
+  -webkit-box-shadow: 3px 3px 30px 1px rgba(204, 198, 117, 0.75) inset;
+          box-shadow: 3px 3px 30px 1px rgba(204, 198, 117, 0.75) inset;
+  background: #ecc30c;
+  color: white;
+}
+
+.menu-items {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  gap: 3rem 2rem;
+  justify-items: center;
+  width: 100vw;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  padding-bottom: 5rem;
+  background: #e7e9eb;
+}
+
+.photo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20rem;
+  border: 0.4rem solid #dda413;
+  border-radius: 1rem;
+  -webkit-transform: scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+          transform: scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.discription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px dotted black;
+  padding: 0 0 0.3rem 0;
+  text-transform: capitalize;
+}
+
+.discription h2 {
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+
+.discription .price {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #f5be0b;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+  text-align: justify;
+  color: #747272;
+  text-transform: capitalize;
+}
+
+.moon {
+  background: #6d6a6a !important;
+  color: white;
+  color: "rgb(109, 221, 230)", "rgb(230, 148, 148)", "rgb(133, 228, 133)", "rgb(230, 230, 163)";
+}
+
+.menu-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */
